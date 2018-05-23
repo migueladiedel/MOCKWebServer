@@ -221,7 +221,7 @@ const lstServicio = [
   { url: '/ws/biblioteca', pk: 'id', fich: __dirname + '/data/biblioteca.json', readonly: false },
   { url: '/ws/vehiculos', pk: 'id', fich: __dirname + '/data/vehiculos.json', readonly: false },
   { url: '/ws/marcas', pk: 'marca', fich: __dirname + '/data/marcas-modelos.json', readonly: false },
-  { url: '/ws/userBanco', pk: 'idUsuario', fich: __dirname + '/data/userBanco.json', readonly: true },
+  { url: '/ws/tarjetas', pk: 'id', fich: __dirname + '/data/tarjetas.json', readonly: true },
 ]
 
 lstServicio.forEach(servicio => {
